@@ -1,0 +1,44 @@
+body{
+    background-color: gray;
+}
+.container{
+    border: 2px solid green;
+/* 
+    /* flex-box */
+    display: flex;
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+ 
+
+  
+    
+}
+.item{
+    border: 1px solid red;
+    background-color: aqua;
+    margin: 2px;
+  width: 50px;
+  height: 90px;
+  flex-basis: auto;
+  
+
+}
+
+.item-1{
+    order: 3;
+    flex-shrink: 5;
+   
+}
+.item-2{
+    order: 1;
+}
+
+.item-7{
+    order: 2;
+}
+.item-5{
+    flex-grow: 4;
+} 

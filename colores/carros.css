@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    width: 100px; /* Tamaño específico para el logo */
+    height: auto; /* Mantener la relación de aspecto */
+    margin-right: 20px; /* Espacio a la derecha para separarlo de la navegación */
+}
+header {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+ 
+}
+nav .ayuda li {
+    display: inline; 
+    align-items: center; 
+   
+
+  
+}
+
+
+nav .ayuda li a {
+    color: white; 
+    text-decoration: none; 
+    border-bottom: none;
+    margin-right: 20px; 
+    vertical-align: middle; 
+ 
+
+}
+
+
+.productos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.producto {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.producto img {
+    width: 200px;
+    height: auto;
+}
+.ayuda{
+    text-decoration: none;
+    color: white;
+}
+
+#carrito-detalle{
+    display: none;
+   background-color: white;
+    height: 80vh;
+    width: 80vw;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    left: 150px;
+    border: solid rgba(50,50,50,0.5);
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+}
+
+#close-btn{
+    font-size: 30px;
+}

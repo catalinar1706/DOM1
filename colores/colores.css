@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    height: 85vh;
+    width: 100%;
+    flex-direction: column;
+}
+
+.otro-color{
+    border: solid black;
+    height: 50%;
+    width: 50%;
+}
+
+main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.derecho{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 100px;
+}
+
+.izquierdo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estilo-botones{
+    height: 50px;
+    background-color: white;
+    width: 30%;
+}
+
+.estilo-botones:hover{
+    background-color: palevioletred;
+
+}

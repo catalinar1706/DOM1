@@ -1,0 +1,25 @@
+.foto{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    
+}
+.noticia{
+    height: 300px;
+    width: 150px;
+    
+}
+
+.galeria{
+    text-align: center;
+    border: solid 2px black;
+}
+
+.testimonio{
+    text-align: center;
+}
+
+.offset-7{
+    margin-top: -60px;
+    
+}
