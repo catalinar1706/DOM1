@@ -215,7 +215,8 @@ main{
 #vaciar{
     margin-top: 550px;
     margin: auto;
-    background-color: rgba(228, 0, 0,0.8);
+    background-color: black;
+    color: white;
     width: 20%;
     border: none;
     border-radius: 5px;
@@ -226,7 +227,8 @@ main{
 .boton-total{
     margin-top: 550px;
     margin: auto;
-    background-color: rgba(228, 0, 0,0.8);
+    background-color: black;
+    color: white;
     width: 20%;
     border: none;
     border-radius: 5px;
@@ -235,10 +237,31 @@ main{
 }
 
 .foterColor{
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: black;
 }
 
 .pes{
     margin: 0;
     padding: 0;
+}
+
+.barra{
+    background-color: black;
+}
+
+.botonShopping{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.botonShopping i{
+    font-size: 20px;
+}
+
+.colorTarjeta{
+    background-color: black;
+    color: white;
 }
