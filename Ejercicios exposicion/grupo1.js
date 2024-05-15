@@ -1,10 +1,8 @@
-// ejercicio del 1 grupo de exposicion 
-
-window.addEventListener('DOMContentLoaded', (Event) => {
+window.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM completamente cargado y analizado');
 });
 
-function adbrirVentana(){
-    window.open('https//www.ejemplo.com,'_black, 'with = 600, height =400')
-
+function abrirVentana() {
+    window.open('https://www.ejemplo.com', '_blank', 'width=600,height=400');
 };
+
